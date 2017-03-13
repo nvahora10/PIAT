@@ -58,6 +58,7 @@
       -ms-flex: 1;
           flex: 1;
   line-height: 42px;
+  color:deeppink;
 }
 
 .portfolio-header .mdl-layout__drawer-button {
@@ -67,7 +68,6 @@
 .portfolio-navigation-row .is-active {
   position: relative;
   font-weight: 900;
-  color:deeppink;
 }
 
 .portfolio-navigation-row .is-active:after {
