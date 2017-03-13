@@ -1,0 +1,285 @@
+.portfolio-header {
+  position: relative;
+}
+
+.portfolio-header .mdl-layout__header-row {
+  padding: 0;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mdl-layout__title {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.is-compact .mdl-layout__title span {
+  display: none;
+}
+
+.portfolio-logo-row {
+  min-height: 200px;
+}
+
+.is-compact .portfolio-logo-row {
+  min-height: auto;
+}
+
+.portfolio-logo {
+  background: url(images/logo.jpg) 50% no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  margin: auto auto 10px;
+}
+
+.is-compact .portfolio-logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 7px;
+}
+
+.portfolio-navigation-row {
+  background-color: lightslategray;
+  text-transform: uppercase;
+  height: 45px;
+}
+
+.portfolio-navigation-row  .mdl-navigation {
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.portfolio-navigation-row .mdl-navigation__link {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 42px;
+}
+
+.portfolio-header .mdl-layout__drawer-button {
+    background-color: rgba(197, 197, 197, 0.44);
+}
+
+.portfolio-navigation-row .is-active {
+  position: relative;
+  font-weight: 900;
+}
+
+.portfolio-navigation-row .is-active:after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(images/footer.jpg);
+  background-size: cover;
+  left: 15%;
+}
+
+.portfolio-card .mdl-card__title {
+  padding-bottom: 0;
+}
+
+img.article-image {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+.portfolio-copy {
+  max-width: 700px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-left-padding{
+  padding-left: 0;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+
+.padding-top {
+  padding: 10px 0 0;
+}
+
+.portfolio-share-btn {
+  position: relative;
+  float: right;
+  top: -4px;
+}
+
+.demo-card-event > .mdl-card__actions {
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.portfolio-contact .mdl-textfield {
+  width: 100%;
+}
+
+.portfolio-contact form {
+  max-width: 550px;
+  margin: auto;
+}
+
+footer {
+  background-image: url(images/footer-background.jpg);
+  background-size: cover;
+}
+
+
+.mdl-button.mdl-button--facebook {
+    color: rgb(63, 81, 181)
+}
+.mdl-button.mdl-button--facebook:focus:not(:active) {
+    background-color: #3b5998
+}
+.mdl-button--raised.mdl-button--facebook {
+    background: #3b5998;
+    color: rgb(255, 255, 255)
+}
+.mdl-button--raised.mdl-button--facebook:hover {
+    background-color: #3b5998
+}
+.mdl-button--raised.mdl-button--facebook:active {
+    background-color: #3b5998
+}
+.mdl-button--raised.mdl-button--facebook:focus:not(:active) {
+    background-color: #3b5998
+}
+.mdl-button--raised.mdl-button--facebook .mdl-ripple {
+    background: rgb(255, 255, 255)
+}
+.mdl-button--fab.mdl-button--facebook {
+    background: #3b5998;
+    color: rgb(255, 255, 255)
+}
+.mdl-button--fab.mdl-button--facebook:hover {
+    background-color: #3b5998
+}
+.mdl-button--fab.mdl-button--facebook:focus:not(:active) {
+    background-color: #3b5998
+}
+.mdl-button--fab.mdl-button--facebook:active {
+    background-color: #3b5998
+}
+.mdl-button--fab.mdl-button--facebook .mdl-ripple {
+    background: rgb(255, 255, 255)
+}
+.mdl-button.mdl-button--googleplus {
+    color: rgb(63, 81, 181)
+}
+.mdl-button.mdl-button--googleplus:focus:not(:active) {
+    background-color: #e93f2e
+}
+.mdl-button--raised.mdl-button--googleplus {
+    background: #e93f2e;
+    color: rgb(255, 255, 255)
+}
+.mdl-button--raised.mdl-button--googleplus:hover {
+    background-color: #e93f2e
+}
+.mdl-button--raised.mdl-button--googleplus:active {
+    background-color: #e93f2e
+}
+.mdl-button--raised.mdl-button--googleplus:focus:not(:active) {
+    background-color: #e93f2e
+}
+.mdl-button--raised.mdl-button--googleplus .mdl-ripple {
+    background: rgb(255, 255, 255)
+}
+.mdl-button--fab.mdl-button--googleplus {
+    background: #e93f2e;
+    color: rgb(255, 255, 255)
+}
+.mdl-button--fab.mdl-button--googleplus:hover {
+    background-color: #e93f2e
+}
+.mdl-button--fab.mdl-button--googleplus:focus:not(:active) {
+    background-color: #e93f2e
+}
+.mdl-button--fab.mdl-button--googleplus:active {
+    background-color: #e93f2e
+}
+.mdl-button--fab.mdl-button--googleplus .mdl-ripple {
+    background: rgb(255, 255, 255)
+}
+
+.mdl-button.mdl-button--linkedin {
+    color: rgb(63, 81, 181)
+}
+.mdl-button.mdl-button--linkedin:focus:not(:active) {
+    background-color: #0e76a8
+}
+.mdl-button--raised.mdl-button--linkedin {
+    background: #0e76a8;
+    color: rgb(255, 255, 255)
+}
+.mdl-button--raised.mdl-button--linkedin:hover {
+    background-color: #0e76a8
+}
+.mdl-button--raised.mdl-button--linkedin:active {
+    background-color: #0e76a8
+}
+.mdl-button--raised.mdl-button--linkedin:focus:not(:active) {
+    background-color: #0e76a8
+}
+.mdl-button--raised.mdl-button--linkedin .mdl-ripple {
+    background: rgb(255, 255, 255)
+}
+.mdl-button--fab.mdl-button--linkedin {
+    background: #0e76a8;
+    color: rgb(255, 255, 255)
+}
+.mdl-button--fab.mdl-button--linkedin:hover {
+    background-color: #0e76a8
+}
+.mdl-button--fab.mdl-button--linkedin:focus:not(:active) {
+    background-color: #0e76a8
+}
+.mdl-button--fab.mdl-button--linkedin:active {
+    background-color: #0e76a8
+}
+.mdl-button--fab.mdl-button--linkedin .mdl-ripple {
+    background: rgb(255, 255, 255)
+}
+
+
+.demo-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.demo-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+.demo-layout.is-small-screen .demo-content {
+  padding: 40px 28px;
+}
+
+.demo-content h3 {
+  margin-top: 48px;
+}
