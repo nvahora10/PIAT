@@ -62,7 +62,7 @@
   line-height: 42px;
 }
 
-.portfolio-navigation-row .mdl-navigation__link .is-active{
+.mdl-navigation__link .is-active{
     color:deeppink;
 }
 .portfolio-header .mdl-layout__drawer-button {
