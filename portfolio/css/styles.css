@@ -28,7 +28,7 @@
 }
 
 .portfolio-logo {
-  background: url(../images/logo.JPG) 50% no-repeat;
+  background-image: url(../images/logo.JPG) 50% no-repeat;
   background-size: cover;
   height: 150px;
   width: 150px;
