@@ -62,6 +62,9 @@
   line-height: 42px;
 }
 
+.portfolio-navigation-row .mdl-navigation__link .is-active{
+    color:deeppink;
+}
 .portfolio-header .mdl-layout__drawer-button {
     background-color: rgba(197, 197, 197, 0.44);
 }
@@ -69,7 +72,6 @@
 .portfolio-navigation-row .is-active {
   position: relative;
   font-weight: 900;
-  color: deeppink;
 }
 
 .portfolio-navigation-row .is-active:after {
