@@ -28,7 +28,7 @@
 }
 
 .portfolio-logo {
-  background: url(images/logo.JPG) 50% no-repeat;
+  background: url(/images/logo.JPG) 50% no-repeat;
   background-size: cover;
   height: 150px;
   width: 150px;
@@ -41,10 +41,7 @@
   margin-top: 7px;
 }
 
-.mdl-navigation__link .is-active {
-    color:deeppink;
 
-}
 .portfolio-navigation-row {
   background-color: lightslategray;
   text-transform: uppercase;
