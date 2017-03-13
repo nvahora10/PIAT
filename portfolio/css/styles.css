@@ -28,7 +28,7 @@
 }
 
 .portfolio-logo {
-  background: url(logo.JPG) 50% no-repeat;
+  background: url(images/logo.JPG) 50% no-repeat;
   background-size: cover;
   height: 150px;
   width: 150px;
@@ -139,11 +139,6 @@ img.article-image {
 .portfolio-contact form {
   max-width: 550px;
   margin: auto;
-}
-
-footer {
-  background-image: url(images/footer-background.jpg);
-  background-size: cover;
 }
 
 
