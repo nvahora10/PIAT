@@ -41,6 +41,10 @@
   margin-top: 7px;
 }
 
+.mdl-navigation__link .is-active {
+    color:deeppink;
+
+}
 .portfolio-navigation-row {
   background-color: lightslategray;
   text-transform: uppercase;
@@ -53,12 +57,12 @@
   width: 100%;
 }
 
+
 .portfolio-navigation-row .mdl-navigation__link {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
   line-height: 42px;
-  color:deeppink;
 }
 
 .portfolio-header .mdl-layout__drawer-button {
